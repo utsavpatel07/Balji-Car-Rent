@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+
+.contaner{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../imgs/BG/sadubg.jpg    ");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cars-rent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.first-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 85px 0px 50px 0px;
+}
+
+.second-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.car-info{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.219) ;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: .1s linear;
+}
+
+.car-info:hover{
+    scale: 1.002;
+}
+
+.car-info .img{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .01px solid rgba(207, 206, 206, 0.63);
+}
+
+.info{
+    padding: 1px;
+}
+
+.il{
+    display: flex;
+    margin: 12px;
+}
+
+.il h3:nth-child(1){
+    display: inline-block;
+    width: 80px;
+}
+
+.il h3:nth-child(2){
+    display: inline-block;
+    width: 20px;
+}

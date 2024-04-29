@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/BG/BGFOR5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .cell{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.container .cell .co-cell{
+    width: 80%;
+    height: 25%;
+    position: relative;
+    border-bottom: 2px solid white;
+}
+.container .cell .co-cell img{
+    height: 120px;
+    margin-left: 70px;
+}
+.container .cell .co-cell h5{
+    color: white;
+    display: inline;
+    font-size: 23px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+.container .cell .co-cell .line{
+    width: 100%;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.container .cell #main{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.container .cell h4{
+    color: rgba(255, 255, 255, 0.651);
+    font-weight: lighter;
+    font-size: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 22%;
+}
